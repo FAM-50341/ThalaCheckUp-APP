@@ -28,11 +28,12 @@ def predict_alpha_thalassemia(user_input_list):
         return "Normal: No thalassemia detected."
     stage2_pred = stage2_model.predict(processed_input)[0]
     if stage2_pred == 0:
-        return "Carrier: Silent Carrier"
+        return "Carrier Gene Detected: The type is Silent Carrier"
     else:
-        return "Carrier: Alpha Trait"
+        return "Carrier Gene Detected: The type is Alpha Trait"
 
 st.title("ThalaCheckUp")
+st.subtitle(" Multi-stage diagnostic tool that checks Alpha Thalassemia conditions from standard blood test parameters")
 
 # User Inputs
 gender = st.selectbox("Gender (0=Female, 1=Male)", [0,1])
@@ -52,7 +53,7 @@ hba2 = st.number_input("Hemoglobin A2 (HbA2)")
 hbf = st.number_input("Hemoglobin F (HbF)")
 
 
-if st.button("Predict"):
+if st.button("Check"):
     user_input = [gender, hb, pcv, rbc, mcv, mch, mchc, rdw,
                   wbc, neut, lymph, plt, hba, hba2, hbf]
     result = predict_alpha_thalassemia(user_input)
