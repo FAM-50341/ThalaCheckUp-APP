@@ -74,9 +74,9 @@ Alpha Thalassemia is a hereditary condition often underdiagnosed due to subtle s
 
 Early and accurate classification (Normal vs. Carrier → Silent vs. Alpha Trait) is essential for:
 
-Family planning & genetic counseling
+- Family planning & genetic counseling
 
-Preventing severe thalassemia in offspring
+- Preventing severe thalassemia in offspring
 
-Reducing unnecessary anxiety or interventions
+- Reducing unnecessary anxiety or interventions
 
