@@ -32,24 +32,13 @@ Users input 15 blood-related features:
 - `Hemoglobin A2 (HbA2)`
 - `Hemoglobin F (HbF)`
 
-## 🧠 Models Used
+## 🧠 Multi-Stage Diagnosis Tool
 
 This project uses a robust two-stage machine learning pipeline, combining multiple models and techniques to maximize classification performance:
 
 🔹 Stage 1: Normal vs. Carrier Classification
+
 Goal: Detect whether a person is Normal or an Alpha Thalassemia Carrier.
-
-Model Type: Soft Voting Ensemble
-
-Algorithms Used:
-
-1. Logistic Regression
-
-2. Decision Tree Classifier
-
-3. Random Forest Classifier
-
-4. XGBoost Classifier
 
 Stage 2: Carrier Classification – Silent vs. Alpha Trait
 
@@ -59,15 +48,7 @@ Goal: For individuals predicted as Carriers in Stage 1, further classify into:
 
 - Alpha Trait Carrier
 
-Model Type: Same as Stage 1 — Soft Voting Ensemble with tuned versions of:
 
-- Logistic Regression
-
-- Decision Tree
-
-- Random Forest
-
-- XGBoost
 
  ## 🩸 Why It Matters:
   
