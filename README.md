@@ -9,7 +9,7 @@ ThalaCheckUp is a machine learning-powered two-stage diagnostic tool that predic
 
 ## 🚀 Live App
 
-👉 [ThalCheckUp](https://thalacheckup-app-1.onrender.com/)
+👉 [ThalCheckUp App]([https://thalacheckup-app-1.onrender.com/](https://alpha-thalacheckup-app.onrender.com/))
 
 ## 📌 How It Works
 
