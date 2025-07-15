@@ -1,4 +1,4 @@
-# 🩸 ThalaCheck: Alpha Thalassemia Diagnosis Assistant
+# 🩸 ThalaCheckUp: Alpha Thalassemia Diagnosis Assistant
 
 ThalaCheck is a machine learning-powered two-stage diagnostic tool that predicts Alpha Thalassemia conditions from standard blood test parameters. It supports early detection and classification into:
 - Normal (Healthy individual)
