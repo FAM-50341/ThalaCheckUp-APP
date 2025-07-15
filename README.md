@@ -31,7 +31,7 @@ Users input 15 blood-related features:
 - `Hemoglobin A2 (HbA2)`
 - `Hemoglobin F (HbF)`
 
-🧠 Models Used
+## 🧠 Models Used
 
 This project uses a robust two-stage machine learning pipeline, combining multiple models and techniques to maximize classification performance:
 
@@ -68,7 +68,7 @@ Model Type: Same as Stage 1 — Soft Voting Ensemble with tuned versions of:
 
 - XGBoost
 
-  🩸 Why It Matters:
+ ## 🩸 Why It Matters:
   
 Alpha Thalassemia is a hereditary condition often underdiagnosed due to subtle symptoms, especially in silent carriers.
 
