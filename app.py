@@ -32,7 +32,7 @@ def predict_alpha_thalassemia(user_input_list):
     else:
         return "Carrier: Alpha Trait"
 
-st.title("Alpha Thalassemia Prediction Pipeline")
+st.title("ThalaCheckUp")
 
 # User Inputs
 gender = st.selectbox("Gender (0=Female, 1=Male)", [0,1])
