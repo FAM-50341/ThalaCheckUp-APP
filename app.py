@@ -33,7 +33,6 @@ def predict_alpha_thalassemia(user_input_list):
         return "Carrier Gene Detected: The type is Alpha Trait"
 
 st.title("ThalaCheckUp")
-st.subtitle(" Multi-stage diagnostic tool that checks Alpha Thalassemia conditions from standard blood test parameters")
 
 # User Inputs
 gender = st.selectbox("Gender (0=Female, 1=Male)", [0,1])
